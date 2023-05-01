@@ -1,0 +1,36 @@
+
+/**************************************/
+/*** For mobile device
+     maxmum width 1080px            ***/
+/**************************************/
+@media screen and (max-width: 1080px) {
+ 
+    body {
+        width: 980px;
+        height: 1800px;
+        /***font-size: 250%;***/
+        border: solid red thick;
+
+
+    }
+    
+    body a {
+        margin: 3em;
+    }
+
+    header {
+        font-size: 250%;
+        font-weight: bold;
+    }
+
+    /**********/
+    main input {
+        font-size: 250%;
+        /***color: red;***/
+    }
+    /**********/
+
+}
+/*************************************/
+/***END Of FOR MAXIMUM WiDTH 1080px***/
+/*************************************/
