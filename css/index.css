@@ -6,29 +6,30 @@
 @media screen and (max-width: 1080px) {
  
     body {
-        width: 980px;
-        height: 1800px;
+        width: 900px;
+        height: 1550px;
         /***font-size: 250%;***/
         border: solid red thick;
-
-
+        font-size: 250%;
+        font-weight: bold;
     }
     
     body a {
         margin: 3em;
     }
-
+/***
     header {
-        font-size: 250%;
         font-weight: bold;
     }
+***/
 
-    /**********/
     main input {
-        font-size: 250%;
-        /***color: red;***/
+        font-size: 150%;
     }
-    /**********/
+
+    button {
+        font-size: 150%;
+    }
 
 }
 /*************************************/
