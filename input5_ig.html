@@ -15,9 +15,9 @@
                 <form id="id_form_inputXAndY" name="name_form_inputXAndY">
                     <!--new option item start-->
                     <div>
-                        <select >
-                            <option value="buy">Buy</option>
-                            <option value="shell">Shell</option>
+                        <select id="id_ig_form_select_buysell">
+                            <option id="id_ig_form_option_buy" selected value="buy">Buy</option>
+                            <option id="id_ig_form_option_sell" value="sell">Shell</option>
                         </select>
                     </div>
                     <!--new option item end-->
@@ -28,8 +28,8 @@
                     <input id="id_XAndY_input_Y" name="name_input_Y" type="number" required/>
                     <br>
                     <!--new input item start-->
-                    <label for="id_XAndY_input_z">Input Stoping Value by percentage :</label>
-                    <input id="id_XAndY_input_z" name="name_input_z" type="number" required/>
+                    <label for="id_XAndY_input_Z">Input Stoping Value by percentage :</label>
+                    <input id="id_XAndY_input_Z" name="name_input_Z" type="number" required/>
                     <br>
                     <!--new input item end-->
                     <button id="id_XAndY_button_calculate" type="button">Get asking stoping points!!</button>
@@ -37,19 +37,16 @@
                     <p id="id_XAndY_P_Result_Incremental_rate">*****</p>--->
                     <br>
                     <!--new result items start-->
-                    <label id="id_form_ig_p_stopping_point">Stoping point:</label>
-                    <p id="id_form_ig_p_stopping_point">*****</p>
-
-                    <label id="id_form_ig_p_asking_point">Asking point:</label>
-                    <p id="id_form_ig_p_asking_point">*****</p>
+                    <p id="id_form_ig_p_stopping_point">Stopping point</p>
                     <br>
-                    <label id="id_form_ig_p_stopping_price">Stopping price:</label>
-                    <p id="id_form_ig_p_stopping_price">*****</p>
-
-                    <label id="id_form_ig_p_asking_price">Asking price:</label>
-                    <p id="id_form_ig_p_asking_price">*****</p>
+                    <p id="id_form_ig_p_asking_point">Asking point</p>
+                    <br>
+                    <p id="id_form_ig_p_stopping_price">Stopping price</p>
+                    <br>
+                    <p id="id_form_ig_p_asking_price">Asking price</p>
+                    <br>
                     <!--new result items end-->
-                    <p id="id_XAndY_P_Result">message is here.</p> <!---message area -->
+                    <p id="id_XAndY_P_Result">***message is here.***</p> <!---message area -->
 
                 </form>
             </inputXAndY>
@@ -59,7 +56,7 @@
         </footer>
 
         <!---define script file-->
-        <script src="./scripts/input5_ig/input5_ig.js" type="module"></script>
+        <script src="./scripts//input5_ig/input5_ig.js" type="module"></script>
 
     </body>
 </html>
