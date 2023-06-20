@@ -7,7 +7,8 @@
  
     body {
         width: 900px;
-        height: 1550px;
+        /*height: 1550px;*/
+        height: auto;
         /***font-size: 250%;***/
         border: solid red thick;
         font-size: 250%;
@@ -24,6 +25,10 @@
 ***/
 
     main input {
+        font-size: 150%;
+    }
+    main select{
+        /*font-size: large;*/
         font-size: 150%;
     }
 

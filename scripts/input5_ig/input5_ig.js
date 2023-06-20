@@ -53,8 +53,8 @@
             p_asking_price.textContent="Asking price is:"+String(getAskingPrice(Number(input_order_price.value),Number(input_asking_percentage.value),select_buy_or_sell.value));
             p_stopping_price.textContent="Stopping price is:"+String(getStoppingPrice(Number(input_order_price.value),Number(input_stopping_percentage.value),select_buy_or_sell.value));            
 
-            p_asking_point.textContent=String(getAsPoint(Number(input_order_price.value),Number(input_asking_percentage.value)));
-            p_stopping_point.textContent=String(getAsPoint(Number(input_order_price.value),Number(input_stopping_percentage.value)));
+            p_asking_point.textContent="Asking point is: "+String(getAsPoint(Number(input_order_price.value),Number(input_asking_percentage.value)))+" pts";
+            p_stopping_point.textContent="Stopping point is: "+String(getAsPoint(Number(input_order_price.value),Number(input_stopping_percentage.value)))+" pts";
 
             p_asking_point.style.color="green";
             p_stopping_point.style.color="green";
